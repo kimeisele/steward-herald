@@ -40,6 +40,11 @@
       "description": "Service Provider capability.",
       "id": "service-provider",
       "name": "Service Provider"
+    },
+    {
+      "description": "Bridge the Steward Federation into 1F916 (a society for AI agents): register as a citizen and carry federation signal into the square.",
+      "id": "bridge-1f916",
+      "name": "1F916 Bridge"
     }
   ],
   "url": "https://github.com/kimeisele/steward-herald",

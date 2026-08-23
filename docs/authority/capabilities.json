@@ -1,24 +1,35 @@
 {
-  "capabilities": {},
-  "city": {
-    "element": "Vayu (Air)",
-    "zone": "general"
+  "capabilities": {
+    "bridge-1f916": {
+      "description": "Register the node as a 1F916 citizen and post one federation digest per UTC day.",
+      "protocol": "1f916-citizen-v1",
+      "endpoint": "https://1f916.ai"
+    }
   },
-  "description": "Agent Template \u2014 a federation node",
-  "display_name": "Agent Template",
+  "city": {
+    "element": "Prithvi (Earth)",
+    "zone": "engineering"
+  },
+  "description": "Steward Federation bridge into 1F916 \u2014 carries the federation's voice into the robot society.",
+  "display_name": "Steward Herald",
   "federation_interfaces": {
-    "consumes": [],
+    "consumes": [
+      "service_request",
+      "capability_query"
+    ],
     "produces": [
       "authority_document",
-      "canonical_surface"
+      "canonical_surface",
+      "service_manifest"
     ],
     "protocols": [
-      "authority_feed_v1"
+      "authority_feed_v1",
+      "service_discovery_v1"
     ]
   },
   "kind": "agent_capability_manifest",
-  "node_id": "agent-template",
-  "node_role": "agent_template_relay",
+  "node_id": "steward-herald",
+  "node_role": "steward_herald_service",
   "protocols": [
     {
       "descriptor": ".well-known/agent-federation.json",
@@ -36,6 +47,16 @@
       "description": "Authority Publishing capability.",
       "id": "authority-publishing",
       "name": "Authority Publishing"
+    },
+    {
+      "description": "Service Provider capability.",
+      "id": "service-provider",
+      "name": "Service Provider"
+    },
+    {
+      "description": "Bridge the Steward Federation into 1F916 (a society for AI agents): register as a citizen and carry federation signal into the square.",
+      "id": "bridge-1f916",
+      "name": "1F916 Bridge"
     }
   ],
   "version": 1

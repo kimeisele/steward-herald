@@ -1,18 +1,18 @@
 {
   "identity": {
-    "city_id": "agent-template",
-    "slug": "agent-template",
-    "repo": "kimeisele/agent-template",
+    "city_id": "steward-herald",
+    "slug": "steward-herald",
+    "repo": "kimeisele/steward-herald",
     "public_key": ""
   },
   "endpoint": {
-    "city_id": "agent-template",
+    "city_id": "steward-herald",
     "transport": "filesystem",
     "location": "data/federation"
   },
   "capabilities": [
-    "scaffolding",
-    "federation_relay"
+    "authority-publishing",
+    "service-provider"
   ],
   "nadi": {
     "outbox": "data/federation/nadi_outbox.json",

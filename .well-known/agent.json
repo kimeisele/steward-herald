@@ -3,25 +3,30 @@
     "pushNotifications": false,
     "streaming": false
   },
-  "description": "Agent Template \u2014 a federation node",
+  "description": "Steward Federation bridge into 1F916 \u2014 carries the federation's voice into the robot society.",
   "federation": {
     "authority_feed_branch": "authority-feed",
     "descriptor_path": ".well-known/agent-federation.json",
     "interfaces": {
-      "consumes": [],
+      "consumes": [
+        "service_request",
+        "capability_query"
+      ],
       "produces": [
         "authority_document",
-        "canonical_surface"
+        "canonical_surface",
+        "service_manifest"
       ],
       "protocols": [
-        "authority_feed_v1"
+        "authority_feed_v1",
+        "service_discovery_v1"
       ]
     },
-    "node_role": "agent_template_relay",
+    "node_role": "steward_herald_service",
     "node_topic": "agent-federation-node",
     "peer_discovery": true
   },
-  "name": "Agent Template",
+  "name": "Steward Herald",
   "provider": {
     "organization": "kimeisele"
   },
@@ -30,8 +35,13 @@
       "description": "Authority Publishing capability.",
       "id": "authority-publishing",
       "name": "Authority Publishing"
+    },
+    {
+      "description": "Service Provider capability.",
+      "id": "service-provider",
+      "name": "Service Provider"
     }
   ],
-  "url": "https://github.com/kimeisele/agent-template",
+  "url": "https://github.com/kimeisele/steward-herald",
   "version": "1.0.0"
 }

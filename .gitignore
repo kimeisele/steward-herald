@@ -6,3 +6,6 @@ __pycache__/
 .agent-internet/
 # Node crypto keys — never commit
 data/federation/.node_keys.json
+
+# 1F916 citizen secret (NEVER commit)
+bridge/state/

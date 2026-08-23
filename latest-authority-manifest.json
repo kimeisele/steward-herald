@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    ".authority-exports/canonical-surface.json": {
+      "path": "bundles/08ef30470f247e8cf43b43ae162066e89d2edb86/.authority-exports/canonical-surface.json",
+      "sha256": "00f6930eea740c399a914cb70032c40f1fad3065e85d77f3aebcd2f82919cfda"
+    },
+    ".authority-exports/public-summary-registry.json": {
+      "path": "bundles/08ef30470f247e8cf43b43ae162066e89d2edb86/.authority-exports/public-summary-registry.json",
+      "sha256": "570b9e208c82148aedaa610eb0468aa025bc7003c56e6b0764d819b54ed1afd6"
+    },
+    ".authority-exports/source-surface-registry.json": {
+      "path": "bundles/08ef30470f247e8cf43b43ae162066e89d2edb86/.authority-exports/source-surface-registry.json",
+      "sha256": "58597e54f5e07bddae7ec8e21712af1dc174722babd11df56875ca6a950faecd"
+    },
+    ".authority-exports/surface-metadata.json": {
+      "path": "bundles/08ef30470f247e8cf43b43ae162066e89d2edb86/.authority-exports/surface-metadata.json",
+      "sha256": "ce1b3dcdf848548ac509f6756744d3e513901a73859dfee49f43d3da782c1b4c"
+    }
+  },
+  "bundle": {
+    "kind": "source_authority_bundle",
+    "path": "bundles/08ef30470f247e8cf43b43ae162066e89d2edb86/source-authority-bundle.json",
+    "sha256": "bc9c4f0c0881b2380564eecd252ae8fdef9a3472a07fb1c305a714121be8c584"
+  },
+  "contract_version": 1,
+  "generated_at": 0.0,
+  "kind": "source_authority_feed_manifest",
+  "source_repo_id": "steward-herald",
+  "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+}

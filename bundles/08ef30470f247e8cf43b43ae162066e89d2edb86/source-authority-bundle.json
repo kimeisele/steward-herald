@@ -1,0 +1,84 @@
+{
+  "artifact_paths": {
+    "canonical_surface": ".authority-exports/canonical-surface.json",
+    "public_summary_registry": ".authority-exports/public-summary-registry.json",
+    "source_surface_registry": ".authority-exports/source-surface-registry.json",
+    "surface_metadata": ".authority-exports/surface-metadata.json"
+  },
+  "authority_exports": [
+    {
+      "artifact_uri": ".authority-exports/canonical-surface.json",
+      "content_sha256": "8a1d6056f4e4c2123d464c3db6fd7213edb51288f2ff53990c520942a03218ab",
+      "contract_version": 1,
+      "export_id": "steward-herald/canonical_surface",
+      "export_kind": "canonical_surface",
+      "generated_at": 0.0,
+      "labels": {
+        "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+      },
+      "repo_id": "steward-herald",
+      "version": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+    },
+    {
+      "artifact_uri": ".authority-exports/public-summary-registry.json",
+      "content_sha256": "1215b634de82652e13b3820c476a105fbf8a06ae8720e6cf708be609bf676def",
+      "contract_version": 1,
+      "export_id": "steward-herald/public_summary_registry",
+      "export_kind": "public_summary_registry",
+      "generated_at": 0.0,
+      "labels": {
+        "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+      },
+      "repo_id": "steward-herald",
+      "version": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+    },
+    {
+      "artifact_uri": ".authority-exports/source-surface-registry.json",
+      "content_sha256": "aa4fc82daf68c8654af6e85052f0eab02606c13dbdb6462c289047491b1a72b5",
+      "contract_version": 1,
+      "export_id": "steward-herald/source_surface_registry",
+      "export_kind": "source_surface_registry",
+      "generated_at": 0.0,
+      "labels": {
+        "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+      },
+      "repo_id": "steward-herald",
+      "version": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+    },
+    {
+      "artifact_uri": ".authority-exports/surface-metadata.json",
+      "content_sha256": "739040613d50909e4a4a53f702e2a28f1648e72c10d90189a7070f9550991855",
+      "contract_version": 1,
+      "export_id": "steward-herald/surface_metadata",
+      "export_kind": "surface_metadata",
+      "generated_at": 0.0,
+      "labels": {
+        "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+      },
+      "repo_id": "steward-herald",
+      "version": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+    }
+  ],
+  "contract_version": 1,
+  "generated_at": 0.0,
+  "kind": "source_authority_bundle",
+  "repo_role": {
+    "consumes": [],
+    "exports": [
+      "canonical_surface",
+      "public_summary_registry",
+      "source_surface_registry",
+      "surface_metadata"
+    ],
+    "labels": {
+      "display_name": "Steward Herald"
+    },
+    "owner_boundary": "steward_herald_surface",
+    "publication_targets": [
+      "steward-herald-public-wiki"
+    ],
+    "repo_id": "steward-herald",
+    "role": "normative_source"
+  },
+  "source_sha": "08ef30470f247e8cf43b43ae162066e89d2edb86"
+}

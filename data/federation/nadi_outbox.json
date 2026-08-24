@@ -12,27 +12,6 @@
         "service-provider"
       ]
     },
-    "timestamp": 1787559058.9633157,
-    "priority": 2,
-    "correlation_id": "",
-    "ttl_s": 7200.0,
-    "id": "a12da595-2a15-4d26-92fe-790dbb27a061",
-    "payload_hash": "3a5a29e6728c8d3f02440f27b73b1e894c8b13809ca44ce0dacbb68fa4eb7b68",
-    "signature": "OqOsoi8iAqJus4NVjWi5dTtYXexybu41QSWJ/IkJq9GCD82A7jayWxnb/nLor6+fwKsDAwg71XG9c+YL+glTAQ=="
-  },
-  {
-    "source": "ag_0898b652a285da33",
-    "target": "steward",
-    "operation": "federation.agent_claim",
-    "payload": {
-      "node_id": "ag_0898b652a285da33",
-      "agent_name": "steward-herald",
-      "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a",
-      "capabilities": [
-        "authority-publishing",
-        "service-provider"
-      ]
-    },
     "timestamp": 1787562296.6456518,
     "priority": 2,
     "correlation_id": "",
@@ -64,12 +43,33 @@
   },
   {
     "source": "ag_0898b652a285da33",
+    "target": "steward",
+    "operation": "federation.agent_claim",
+    "payload": {
+      "node_id": "ag_0898b652a285da33",
+      "agent_name": "steward-herald",
+      "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a",
+      "capabilities": [
+        "authority-publishing",
+        "service-provider"
+      ]
+    },
+    "timestamp": 1787568814.3915489,
+    "priority": 2,
+    "correlation_id": "",
+    "ttl_s": 7200.0,
+    "id": "66e7f93e-17b8-4c35-bf0a-9718a7ed9b5c",
+    "payload_hash": "5c8c4d219c27c6682a810a3f44b9d898f9d2e8ff9c4151fdb759f77402cbbd01",
+    "signature": "m4T1NT1oq6LPpKONHgSAoXt7e473aGiZPO681M00ecG49AoexU1rTgz2/4ugLR/Cg6OOALm2x9SG1vBz2NGtDA=="
+  },
+  {
+    "source": "ag_0898b652a285da33",
     "target": "agent-internet",
     "operation": "heartbeat",
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -79,13 +79,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3898509,
+    "timestamp": 1787568814.3941617,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "78cfef0f-4a16-4d94-a0dc-3cfdba614d5f",
-    "payload_hash": "63b66074f0e34f6c50e69e5a7f849e0d599d22e41ef2b580e1447e5b85bb2dbc",
-    "signature": "swfG2TBlDLD+AoOyeOgsfroNfHJss2T3gGwhv9Svtmi2v8BtXJ2ScG0HKZnfKdQu8hbbxg7MhvDFL9jHuFKzAw=="
+    "id": "aaf72e69-ef57-485d-b9c7-6f75b7bfd784",
+    "payload_hash": "7cdf1d7eb9bf076e657596c67c705453c42950cd4ecd8b661bdc2b886f05676e",
+    "signature": "2MQHaYLMaFS/mmKlioxnaNdlzhhO7rdw7rKd8JfIGiyCrzGmfGTUEm9K2Isi/SIlsD3EDKF71P+VCAwQZr/yDA=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -94,7 +94,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -104,13 +104,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3900578,
+    "timestamp": 1787568814.3944106,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "c0792488-3629-43ce-9763-d173b4818314",
-    "payload_hash": "597ad8e68c42a1f0a14335082f28378f89a08b0d87abeda3b8421165e1cd1ebd",
-    "signature": "s8S8x+doL9N0kuKiiBhfylPo1hJFBAV+Jo0Vf4rHCfAIbODp/fd0/8BJekNfE5Do2QKTkl6aDavWiBdNzpSwBA=="
+    "id": "2fbc5c30-8ea6-4dc8-b5ae-1a5ce4087930",
+    "payload_hash": "34acde7dfc5f95c0b8b2ca2fd7796624d592bfba31b75bc2f2760b40006659a8",
+    "signature": "uULuHbAeupQQ4yXpnNrtpJGywMMtoXC/+JxsjEwEVEHJu9UNpIuwhN+xnunE9Z2TtEs18LKu5EJ5o2bugiumDQ=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -119,7 +119,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -129,13 +129,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3902056,
+    "timestamp": 1787568814.3947065,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "c7454396-81f5-4f81-908e-49d904cb55aa",
-    "payload_hash": "5d97b672948c74c1c7e09470c650579d67b5a95bf69f84baf1bd9ed9037014bb",
-    "signature": "X/s/uhiSfeZk9dx2DQ+InxWMDWN6/10RN+4ODSiyFClv2UrJ3TbK3/JA19Q52Of5KMHpjAsJgNgqgieaKmQODw=="
+    "id": "2f3a5e9e-a18e-4346-95d5-846dba95692f",
+    "payload_hash": "017ff5680b2ac6babb40eeb92d01ae6a4af66e65bcae9936804ed52c7db59c42",
+    "signature": "dPVUt22s+GBZrmNJT+1rULmYkD9kt850ZCuwMBAEVLe3ZjnvNftFOgaC4RPWOS1sBaIue8ONWWsJ7/anmWxPBA=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -144,7 +144,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -154,13 +154,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3903463,
+    "timestamp": 1787568814.3949566,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "3fda6b63-6524-4ce3-89f5-534c7d8f3f63",
-    "payload_hash": "867498dff18f0067cd9c3eb910a174c239bbf34916b31389ce88b5d3bc0b2fa9",
-    "signature": "tU2A1xK/CWWKfYrEDDZ0EEi+XtlqrLVsrs19NARIv/IEQyYgyepnYkgKnz797JZnL40HWdmEOTuo26SfqUOJAQ=="
+    "id": "d017bae0-b547-4330-932f-1617372a872d",
+    "payload_hash": "08c4af29452992f790d6440c209589115276c1dd8b6956644eae019649d9bee1",
+    "signature": "0LtDrAi0rdO33gM9nML5DHFlpBPrcLM9TPx7dw18NYmW3bvjayPdQYf7/oWfY+mslppUpsc2+7j3Sgx7WuAwDA=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -169,7 +169,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -179,13 +179,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3904822,
+    "timestamp": 1787568814.3951943,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "4b1bfda1-ca11-4ade-99e2-f78f8bdcac24",
-    "payload_hash": "7f125781be338ad52ce7e99c0d8db267f2332d03da352b0381ebe60ebb1835dd",
-    "signature": "j5po/8cFK68AoP+TNBegcwvyUa2PjgdpP6NjkbprC/jXIsTDeU1cC32TFnsi2PeXF/BiwjqfkAZQq8RtJAjgCA=="
+    "id": "e5a1fccd-7315-4dea-80f6-d3926b4af51d",
+    "payload_hash": "0b9e1af10de6b21768d59c9c8952365a526551561547b0ca6f25d66ecff63e36",
+    "signature": "rU5vuh2Q15FyXoKspXgVzHBrT6k5ps4+rz2u+vBc/Fz4gHOnyeeeMJfVaN7WJvztyN8lLLmErlYYVZgWHmShDg=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -194,7 +194,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -204,13 +204,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3906155,
+    "timestamp": 1787568814.395425,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "0fe921a9-adc1-4785-bd53-b6ae58dbae96",
-    "payload_hash": "710deac87eb19e1f114f090e10a589d3a3f49668d96558980106eb8ae2804ca9",
-    "signature": "7wAQ8RnNG6s7Um5UtO8gbjr6U4latZ4kq9X+a5/xK6rioriMEjbyaglMCwlaWMMcGwlfTXGQkalySsScvMeVBA=="
+    "id": "1a1d6f97-0484-4e15-b37c-96d9d74ec8be",
+    "payload_hash": "d33a1334f46aa984fd3938eda16746c16dd800f52881ff0c3af3e4e6d8f2c56c",
+    "signature": "76QnCnAxoDjMhmBXExA5diynxMtzColfsMwC8b1NPzp5hfJnNmJhzOANDDmTlZYzMYcSpvUvm0QHuFmOtbzbBQ=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -219,7 +219,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -229,13 +229,13 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3907478,
+    "timestamp": 1787568814.3957007,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "fa41816c-05a8-4e75-a7ac-f7ef1cf5c28f",
-    "payload_hash": "26c106a1215a5e6e0e03a2746b856930fef5be1b3e375984c59b073598dbc427",
-    "signature": "hOMkiiCOUy3we+HIiYe1i1VC8At08sl/5rNDGctE9r6raCJ4bxTBSaCMOguWLVxtFsZu06bc11l1nqOafto7Dg=="
+    "id": "e1ef65fb-3552-4ba2-955d-0020da063994",
+    "payload_hash": "6e03084f83d4c3875bb347d4eb0c33a3a56aad8e830f593f617862e752fe53ee",
+    "signature": "4Oj3ayGrXJ7SUhiEyoPNfFR16qqfp21ZWOuxAERsE8HHJ+2MKGIo8ZE2q7qt1omvgn8/qtbccflgqB/qmXkxCQ=="
   },
   {
     "source": "ag_0898b652a285da33",
@@ -244,7 +244,7 @@
     "payload": {
       "agent_id": "steward-herald",
       "health": 1.0,
-      "timestamp": 1787565815.3897367,
+      "timestamp": 1787568814.394035,
       "capabilities": [
         "authority-publishing",
         "service-provider"
@@ -254,12 +254,12 @@
       "node_id": "ag_0898b652a285da33",
       "public_key": "f8451571303703e4e39033c743ad150beaac3f820c4c22973b29f0ff2de61a9a"
     },
-    "timestamp": 1787565815.3908951,
+    "timestamp": 1787568814.3959079,
     "priority": 1,
     "correlation_id": "",
     "ttl_s": 900.0,
-    "id": "1a0e3628-6bfb-4d1d-9109-e5ff14c01468",
-    "payload_hash": "2e71434d9e11973966006d50b575ddc28ab0a5dc851de7a30d481d5f9b8d1779",
-    "signature": "UUd/D1YN3lp85eGFJoQ5yclcWSBZpEIt9fJQjsGiCI72/4udBxDtrt3OBWrXfci0vhyRG33Fs+L9WOqH0ZPpBw=="
+    "id": "595cce40-cd49-49db-871b-6b4861b39783",
+    "payload_hash": "f8f19c66d04762d58c77817c04defe6f5c6ae4fed7c97aa62a2920281a0200b8",
+    "signature": "Bh/Lbkt/O+bNGQ2TrKzRidO7+q45iiRqmOtU0I0IHoU5D7CRcT7EasdGhrZo/EsGNPz5x0BlxrdA//b2zSP/BA=="
   }
 ]
